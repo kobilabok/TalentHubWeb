@@ -1,0 +1,376 @@
+@import "styles-tiles.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 170vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px, 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px, 0;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+    background-color:#ddd;
+    color: #121414;
+}
+
+.content{
+    margin-top: 14%;
+    margin-left: 2%;
+    color: #fff;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 85px;
+    color: #fff;
+}
+
+.select{
+    margin-top: 25px;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    opacity: 0.33;
+}
+
+.select option {
+    margin: 40px;
+    background: rgba(113, 97, 128, 0.65);
+    color: black;
+}
+
+.title{
+    color: #FFFF;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.btn-offers{
+    margin: 0 0 0 2rem;
+    border-radius: .25rem;
+    align-self: center;
+    padding: 2rem;
+    background-color: #748D92;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.btn-offers{
+    margin-left: 70px;
+    margin-top: 23px;
+}
+
+.btn-pay-total-amount,
+.btn-pay-for-order,
+.btn-offers{
+    transform: translateY(-10px);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    background: #ca7feba9;
+    color: white;
+    border: 1px solid #121414;
+    border-radius: 5px;
+    transition: all 0.3s;
+    margin-bottom: 70px;
+}
+
+.btn-pay-total-amount:hover,
+.btn-pay-for-order:hover,
+.btn-offers:hover,
+#add-to-cart:hover{
+    transform: translateY(-16px);
+    background-color:#ddd;
+    color: #121414;
+}
+
+.btn-pay-total-amount:hover,
+.btn-pay-for-order:hover,
+.btn-offers:hover{
+    transform: translateY(-16px);
+}
+
+.btn-pay-for-order,
+.btn-pay-total-amount{
+    display: block;
+    margin: auto;
+    border-radius: .25rem;
+    align-self: center;
+    padding: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
+
+.btn-pay-for-order{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-pay-total-amount{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.artist_tiles:hover{
+    transform: translateY(5px);
+}
+
+.artist-description{
+    max-height: 100px;
+    color: #fff;
+}
+
+.provided-services,
+.selected-services {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: larger;
+    color: #fff;
+} 
+
+.provided-services th,
+.selected-services th{
+    width: 300px;
+} 
+
+.selected-services tr{
+    height: 70px;
+}
+
+td{
+    height: 30px;
+    text-align: center;
+} 
+
+th, td{
+    vertical-align: top;
+}
+
+#tableHeader{
+    font-size: 1.5rem;
+    height: 80px;
+}
+
+.btn-add-to-cart:hover{
+    transform: translateY(-16px);
+    background-color:#ddd;
+    color: #121414;
+}
+
+.reviews-tile{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.review-tile:hover,
+.btn-add-to-cart:hover{
+    transform: translateY(-5px);
+}
+
+.artists-list img{
+    width: 250px; 
+    height: 250px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.artists-list li{
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    font-size: 20px;
+    padding: 16px; 
+    text-align: justify; 
+    color: #fff;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.artist-selfdescription{
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.btn-add-to-cart{
+    margin: -10px 0px 15px 32px;
+    border-radius: .5rem;
+    align-self: center;
+    padding: 1rem;
+    background: #ca7feba9;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.review-tile{
+    margin-bottom: 70px;
+}
+
+.review-tile p img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.review-tile,
+.popular_tiles,
+.values{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-left: -20px;
+    margin: 25px;
+    color: #fff;
+    line-height: 1.4;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    padding: 10px 7px 4px 7px;
+    height: 350px;
+    width: 250px;
+    font-size: medium;
+    margin-left: 2%;
+} 
+
+.related-services-title,
+.reviews-title{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.related-services-tiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}  
+
+.related-services-tile img {
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.quantity input{
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    background:white;
+    border: .5px solid black;
+    border-radius: 5px;
+ }
+
+.purchase-text{
+    margin-top: 100px;
+    margin-top: 20px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: justify;
+    font-size: large;
+}
+
+.payment-info-title,
+.payment-form input{
+    margin-bottom: 20px;
+}
+
+.wrap input{
+    margin: 0px 0px 20px 0px;
+    height: 50px;
+    width: 220px;
+    margin-bottom: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kobi Labok" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-tiles.css" />
+    <link rel="icon" href="../images/tabIcon.jfif" />
+    <title>TalentHub_ArtistOffers</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./shopping-cart.html">Cart</a></li>
+          </ul>
+          <button class="btn"><a href="./login.html">Login</a></button>
+        </nav>
+      </header>
+      <main>
+        <div class="title"> 
+          <h3>Shopping Cart</h3>
+        </div>
+      <div>
+        <table class="selected-services">
+          <tr id="tableHeader">
+            <th>Selected Services</th>
+            <th>Qty</th>
+            <th>Price $</th>
+          </tr>
+          <tr>
+            <td style="width: 35rem; text-align: left;">Portrait by Emma - Custom Portrait, size 24 x 24
+              <BR>$129.99
+              </td>
+            <td>
+              <div class="quantity">
+                <input min="0" value="0" type="number">
+              </div>
+            </td>
+            <td><strong>$129.99</strong></td>
+          </tr>
+          <tr>
+            <td style="width: 35rem; text-align: left;">Portrait by Emma - Family Portrait, size 18 x 24
+              <BR>$99.99
+              </td>
+            <td>
+              <div class="quantity">
+                <input min="0" value="0" type="number">
+              </div>
+            </td>
+            <td><strong>$199.98</strong></td>
+          </tr>
+          <tr>
+            <td style="width: 35rem; text-align: left;">Portrait by Emma - Pet Portrait, size 30 x 24
+              <BR>$159.99
+              </td>
+            <td>
+              <div class="quantity">
+                <input min="0" value="0" type="number">
+              </div>
+            </td>
+            <td><strong>$159.99</strong></td>
+          </tr>
+          <tr>
+            <td style="width: 35rem;"></td>
+            <td><strong>Total</strong></td>
+            <td><strong>$489.99</strong></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <button class="btn-pay-for-order" onclick="window.open('./payment.html', '_self');">Pay For Your Order</button>
+      </div>
+    </div>
+  </body>
+</html>

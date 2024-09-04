@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kobi Labok" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-login.css" />
+    <link rel="icon" href="../images/tabIcon.jfif" />
+    <title>TalentHub_Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./shopping-cart.html">Cart</a></li>
+          </ul>
+          <button class="btn"><a href="./login.html">Login</a></button>
+        </nav>
+      </header>
+      <div class="main">
+        <div>
+          <h1>TalentHub</h1>
+        </div>
+        <div class="payment-info-title">
+          <p>Enter your information and card details to pay</p>
+        </div>
+        <div>
+          <form class="payment-form" action="/url" method="GET">
+            <label for="nameOnCard"></label>
+            <input type="text" id="nameOnCard" name="nameOnCard" placeholder="Name on card" required>
+            <label for="cardNumber" required></label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="0000 0000 0000 0000" required>
+            <form>
+              <div class="wrap">
+                <input type="text" placeholder="MM / YY" required>
+                <input type="text" placeholder="CVT" required>
+              </div>
+            </form>
+            <div class="required_fields_text">
+              <p>all fields are required***</p>
+            </div>
+            <div>
+              <button class="btn-pay-total-amount" type="submit" onclick="solve()">Pay $489.96</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="purchase-text">
+        <p>
+          Thank you for your purchase! Once you paid, a confirmation email will
+          be sent to you shortly after your payment has been processed.
+          <br /><br />
+          Please check your inbox for details on your order and any additional
+          information. If you have any questions or need further assistance,
+          feel free to contact us.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

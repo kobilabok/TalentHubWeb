@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kobi Labok" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-login.css" />
+    <link rel="icon" href="../images/tabIcon.jfif" />
+    <title>TalentHub_Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./shopping-cart.html">Cart</a></li>
+          </ul>
+          <button class="btn"><a href="./login.html">Login</a></button>
+        </nav>
+      </header>
+      <div class="main">
+        <h1>TalentHub</h1>
+        <p>Please enter your login credentials</p>
+        <form action="">
+          <label for="first">Username:</label>
+          <input
+            type="text"
+            id="first"
+            name="first"
+            placeholder="Enter your Username"
+            required
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your Password"
+            required
+          />
+          <div class="wrap">
+            <button class="btn-submit" type="submit" onclick="solve()">
+              Submit
+            </button>
+          </div>
+        </form>
+        <p>
+          Not registered?
+          <a href="./registration.html" style="text-decoration: none"
+            >Create an account</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

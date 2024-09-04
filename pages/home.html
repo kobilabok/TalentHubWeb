@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kobi Labok" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-tiles.css" />
+    <link rel="icon" href="../images/tabIcon.jfif" />
+    <title>TalentHub_Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./shopping-cart.html">Cart</a></li>
+          </ul>
+          <button class="btn"><a href="./login.html">Login</a></button>
+        </nav>
+      </header>
+      <div class="content">
+        <main>
+        <h1>Welcome to TalentHub</h1>
+        <p>
+          Check out our talented artist to bring the perfect touch of intimacy
+          to your event. From accordions to ukuleles, from bagpipes to violins,
+          you can find em all here! At TalentHub we have already compiled all
+          the information transparently for you. Do you like one or more service
+          providers? Request up to four comparison offers quickly, easily and
+          free of charge.
+        </p>
+        <div class="dropdown">
+          <select
+            class="select"
+            name="artists"
+            id="artists"
+            onchange="window.location.href=this.value;"
+          >
+            <option disabled selected>Please select an Artist</option>
+            <option value="./list-of-artists.html">Photographer</option>
+            <option value="./list-of-artists.html">Portrait Painter</option>
+            <option value="./list-of-artists.html">DJ's</option>
+            <option value="./list-of-artists.html">Web Developer</option>
+          </select>
+        </div>
+      </div>
+        <!-- <div class="related-services-title">
+          <h3>Related Services</h3>
+        </div>
+        <div class="related-services-tiles">
+          <div class="related-services-tile">
+            <img src="../images/wedding_entertainment.com.png">
+          </div>
+          <div class="related-services-tile">
+            <img src="../images/wedding_music.png">
+          </div>  
+          <div class="related-services-tile">
+            <img src="../images/event_entertainment.png">
+          </div>
+        </div> -->
+      <div class="reviews-title">
+        <h3>Reviews</h3>
+      </div>
+      <div class="reviews-tile">
+        <div class="review-tile">
+          <p>
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png"><br>
+            Eileen contacted me right away and I was so happy with the budget and she is able to paint my portrait!
+          <br><br><b>02 Jun 2024</b></p>
+        <p>
+        </div>
+        <div class="review-tile">
+          <p>
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png"><br>
+            Will Reeb is ABSOLUTELY the BEST! He is not only incredibly talented, his costume and show are top notch. He interacts with his audience and truly gives them the best entertainment. He is an amazing person and we at Newport Harbour cannot WAIT to have him back here! We would give him 10 stars if we could!
+            <br><br><b>28 May 2024</b></p>
+          <p>
+        </div>  
+        <div class="review-tile">
+          <p>
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png">
+            <img src="../images/star.png"><br>
+            Very professional, punctual, knows his stuff, good listener.
+          <br><br><b>26 Oct 2023</b></p>
+          <p>
+        </div>
+      </div>
+      </main>
+      <!-- <footer class="footer" width="100%">
+        <div>
+            <nav class="menu-footer">
+              <ul class="list">
+                <li class="list-item">© 2024 Talenthub.com Global Limited. Terms & Conditions / Cookie policy / Privacy policy</li>
+                <li class="list-item">Change Language</li>
+                <li class="list-item"><a href= "mailto: info@talentHub.com">info@talentHub.com</a></li>
+              </ul>
+          </nav>
+        </div>
+      </footer> -->
+    </div>
+  </body>
+</html>
