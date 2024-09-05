@@ -25,37 +25,25 @@
 } 
 
 .btn-offers{
-    margin: 0 0 0 2rem;
-    border-radius: .25rem;
-    align-self: center;
-    padding: 2rem;
-    background-color: #748D92;
-    color: white;
-    padding: 1rem 2rem;
-    text-align: center;
-    white-space: nowrap;
-    font-size: 16px;
-}
-
-.btn-offers{
     margin-left: 70px;
-    margin-top: 23px;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 120px;
 }
 
 .btn-pay-total-amount,
 .btn-pay-for-order,
 .btn-offers{
     transform: translateY(-10px);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 0.5em 1em;
+    padding: 12px;
     background: #ca7feba9;
     color: white;
     border: 1px solid #121414;
     border-radius: 5px;
     transition: all 0.3s;
-    margin-bottom: 70px;
-}
+} 
 
 .btn-pay-total-amount:hover,
 .btn-pay-for-order:hover,
