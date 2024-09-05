@@ -18,14 +18,14 @@
             <li><a href="./about.html">About Us</a></li>
             <li><a href="./shopping-cart.html">Cart</a></li>
           </ul>
-          <button class="btn"><a href="./login.html">Login</a></button>
+          <button class="btn-login" onclick="window.open('./login.html', '_self');">Login</button>
         </nav>
       </header>
       <main>
         <div class="title"> 
           <h3>Shopping Cart</h3>
         </div>
-      <div>
+        <div>
         <table class="selected-services">
           <tr id="tableHeader">
             <th>Selected Services</th>
@@ -71,10 +71,38 @@
             <td><strong>$489.99</strong></td>
           </tr>
         </table>
-      </div>
-      <div>
-        <button class="btn-pay-for-order" onclick="window.open('./payment.html', '_self');">Pay For Your Order</button>
-      </div>
+        </div>
+        <div>
+          <button class="btn-pay-for-order" onclick="window.open('./payment.html', '_self');">Pay For Your Order</button>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <h2>Questions or Concerns? Call 1800-678-2233</h2>
+  
+          <div class="row">
+            <div class="col">
+              <a href="#">© 2024</a>
+              <a href="#">Talenthub.com Global Limited.</a>
+              <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="col">
+              <a href="mailto: info@talentHub.com">info@talentHub.com</a>
+              <a href="#">Corporate Information</a>
+              <a href="#">Investor Relations</a>
+            </div>
+            <div class="col">
+              <a href="#">Help Center</a>
+              <a href="#">Legal Notice</a>
+              <a href="#">Privacy</a>
+            </div>
+            <div class="col">
+              <a href="#">FAQ</a>
+              <a href="#">Account</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+      </footer>  
     </div>
   </body>
 </html>
