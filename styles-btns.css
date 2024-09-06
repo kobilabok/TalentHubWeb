@@ -9,13 +9,16 @@
     color: white;
     font-weight: 500;
     cursor: pointer;
-    margin-top: 10px;
     margin-right: 50px;
     font-size: 25px;
 }
 
 .btn-login a{
     text-decoration: none;
+}
+
+nav ul li a{
+    transform: translateY(-10px);
 }
 
 .btn-login:hover{
