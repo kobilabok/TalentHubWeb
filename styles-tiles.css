@@ -18,22 +18,22 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     margin-top: 30px;
     padding: 10px 7px 4px 7px;
-    width: 350px;
-    height: 600px;
+    width: 310px;
+    height: 580px;
     color:#fff;
     line-height: 1.4;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
 }
 
 .artist_tiles p{
-    height: 100px;
+    height: 140px;
     margin-bottom: 15px;
 }
 
 .artist_tiles img{
-    width: 340px;
-    height: 335px;
+    width: 300px;
+    height: 310px;
     border-radius: 5px;
     margin-top: -5px;
     margin-bottom: 10px;

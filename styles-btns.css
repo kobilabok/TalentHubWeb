@@ -41,7 +41,7 @@
     background: #ca7feba9;
     color: white;
     border: 1px solid #121414;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: all 0.3s;
 } 
 
@@ -58,13 +58,13 @@
 .btn-pay-total-amount{
     display: block;
     margin: auto;
-    border-radius: .25rem;
+    border-radius: 10px;
     align-self: center;
     padding: 2rem;
     padding: 1rem 2rem;
     text-align: center;
     white-space: nowrap;
-    font-size: 1.5rem;
+    font-size: 28px;
 }
 
 .btn-pay-for-order{
