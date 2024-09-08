@@ -14,7 +14,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80rem;
+    width: 88rem;
     margin-right: auto;
     margin-left: auto;
     background-color: none;
@@ -53,6 +53,7 @@
     height: 140px;
     margin-bottom: 15px;
     line-height: 22px;
+    width: 400px;
 }
 
 .artist_tiles img{
@@ -67,29 +68,107 @@
 .artist_description_tiles{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     font-size: 22px;
     color: #fff;
-    margin: 25px;
+    margin: 0px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     padding: 10px 7px 4px 7px;
-    width: 1000px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .artist_description_tiles img{
-    height: 300px;
-    margin-left: -2px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    margin-right: 20px;
+    height: 350px;
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border-radius: 5px;
 }
 
-.artist_description_tiles:hover,
+.artist_description_tiles p{
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    width: 700px;
+    margin: 5px;
+}
+
+.artist_description_tiles .provided-services{
+    font-size: 22px;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.artist_description_tiles button{
+    align-items: right;
+}
+
+.service_tiles:hover,
 .artist_tiles:hover{
     transform: translateY(10px);
     background-color: rgba(113, 97, 128, 0.65);
+}
+
+.service_tiles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+    width: 300px;
+    height: 430px;
+    color:#fff;
+    line-height: 1.4;
+    font-size: 19px;
+    text-align: center;
+}
+
+.service_tiles h2{
+    color: #fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.service_tiles{
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align:center;
+    background-color: #775a967c;
+}
+
+.service_tiles p{
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.service_tiles h3{
+    width: 100px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.service_tiles ul{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 250px;
+    text-align: left;
+}
+
+.service_tiles button{
+    margin-left: 0px;
 }

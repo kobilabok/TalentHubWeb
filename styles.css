@@ -95,6 +95,10 @@ nav ul li a{
     color: black;
 }
 
+.title{
+    margin-bottom: 30px;
+}
+
 .title h1,
 .title h3{
     color: #FFFF;
