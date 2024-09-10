@@ -48,6 +48,7 @@
     line-height: 1.4;
     font-size: 19px;
     text-align: center;
+    transition: 0.5s;
 }
 
 .artist_tiles p{
@@ -136,6 +137,7 @@
     line-height: 1.4;
     font-size: 19px;
     text-align: center;
+    transition: 0.5s;
 }
 
 .service_tiles h2{
